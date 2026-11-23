@@ -1,0 +1,501 @@
+cik,roster_tickers,roster_name,releases_scored
+0000001800,ABT,Abbott Laboratories,24
+0000002488,AMD,Advanced Micro Devices Inc,24
+0000002969,APD,Air Products & Chemicals Inc,24
+0000004127,SWKS,Skyworks Solutions,24
+0000004281,HWM,Howmet Aerospace,24
+0000004447,HES,Hess Corporation,18
+0000004904,AEP,American Electric Power,24
+0000004962,AXP,American Express Co,24
+0000004977,AFL,AFLAC Inc,24
+0000005272,AIG,American International Group,24
+0000005513,UNM,Unum Group,24
+0000006201,AAL,American Airlines Group,24
+0000006281,ADI,"Analog Devices, Inc.",23
+0000006769,APA,Apache Corporation,0
+0000006951,AMAT,Applied Materials Inc.,24
+0000007084,ADM,Archer-Daniels-Midland Co,24
+0000008670,ADP,Automatic Data Processing,24
+0000008818,AVY,Avery Dennison Corp,24
+0000009389,BLL,Ball Corp,24
+0000010456,BAX,Baxter International Inc.,24
+0000010795,BDX,Becton Dickinson,24
+0000011544,WRB,W. R. Berkley Corporation,24
+0000012208,BIO,Bio-Rad Laboratories,24
+0000012927,BA,Boeing Company,24
+0000014272,BMY,Bristol-Myers Squibb,24
+0000014693,BF.B,Brown-Forman Corp.,23
+0000016732,CPB,Campbell Soup,23
+0000016918,STZ,Constellation Brands,24
+0000018230,CAT,Caterpillar Inc.,24
+0000018926,LUMN,Lumen Technologies,24
+0000019617,JPM,JPMorgan Chase & Co.,24
+0000020286,CINF,Cincinnati Financial,24
+0000021076,CLX,The Clorox Company,24
+0000021344,KO,Coca-Cola Company,24
+0000021665,CL,Colgate-Palmolive,24
+0000023217,CAG,Conagra Brands,24
+0000024545,TAP,Molson Coors Beverage Company,24
+0000024741,GLW,Corning Inc.,24
+0000026172,CMI,Cummins Inc.,24
+0000027419,TGT,Target Corp.,24
+0000027904,DAL,Delta Air Lines Inc.,24
+0000028412,CMA,Comerica Inc.,21
+0000029534,DG,Dollar General,23
+0000029905,DOV,Dover Corporation,24
+0000029989,OMC,Omnicom Group,24
+0000030625,FLS,Flowserve Corporation,24
+0000031462,ECL,Ecolab Inc.,24
+0000031791,PKI,PerkinElmer,24
+0000032604,EMR,Emerson Electric Company,24
+0000033185,EFX,Equifax Inc.,24
+0000034088,XOM,Exxon Mobil Corp.,0
+0000034903,FRT,Federal Realty Investment Trust,24
+0000035527,FITB,Fifth Third Bancorp,24
+0000036104,USB,U.S. Bancorp,24
+0000036270,MTB,M&T Bank Corp.,24
+0000037785,FMC,FMC Corporation,24
+0000037996,F,Ford Motor Company,24
+0000038777,BEN,Franklin Resources,24
+0000039911,GPS,Gap Inc.,24
+0000040533,GD,General Dynamics,24
+0000040545,GE,General Electric,24
+0000040704,GIS,General Mills,23
+0000040987,GPC,Genuine Parts,24
+0000045012,HAL,Halliburton Co.,24
+0000046080,HAS,Hasbro Inc.,24
+0000047111,HSY,The Hershey Company,24
+0000047217,HPQ,HP Inc.,23
+0000048039,HFC,HollyFrontier Corp,0
+0000048465,HRL,Hormel Foods Corp.,23
+0000049071,HUM,Humana Inc.,24
+0000049196,HBAN,Huntington Bancshares,24
+0000049826,ITW,Illinois Tool Works,24
+0000050863,INTC,Intel Corp.,24
+0000051143,IBM,International Business Machines,24
+0000051253,IFF,International Flavors & Fragrances,24
+0000051434,IP,International Paper,24
+0000051644,IPG,Interpublic Group,20
+0000052988,J,Jacobs Engineering Group,23
+0000054480,KSU,Kansas City Southern,4
+0000055067,K,Kellogg Co.,20
+0000055785,KMB,Kimberly-Clark,24
+0000056873,KR,Kroger Co.,23
+0000058492,LEG,Leggett & Platt,23
+0000059478,LLY,Lilly (Eli) & Co.,24
+0000059558,LNC,Lincoln National,24
+0000060086,L,Loews Corp.,0
+0000060667,LOW,Lowe's Cos.,24
+0000062709,MMC,Marsh & McLennan,24
+0000062996,MAS,Masco Corp.,24
+0000063754,MKC,McCormick & Co.,24
+0000063908,MCD,McDonald's Corp.,24
+0000064040,SPGI,"S&P Global, Inc.",24
+0000064803,CVS,CVS Health,24
+0000065984,ETR,Entergy Corp.,24
+0000066740,MMM,3M Company,24
+0000068505,MSI,Motorola Solutions Inc.,24
+0000070858,BAC,Bank of America Corp,24
+0000072741,ES,Eversource Energy,24
+0000072903,XEL,Xcel Energy Inc,24
+0000072971,WFC,Wells Fargo,24
+0000073124,NTRS,Northern Trust Corp.,24
+0000073309,NUE,Nucor Corp.,24
+0000074208,UDR,"UDR, Inc.",19
+0000075362,PCAR,PACCAR Inc.,24
+0000075677,PKG,Packaging Corporation of America,24
+0000076334,PH,Parker-Hannifin,24
+0000077360,PNR,Pentair plc,24
+0000077476,PEP,PepsiCo Inc.,24
+0000078003,PFE,Pfizer Inc.,24
+0000078239,PVH,PVH Corp.,23
+0000079879,PPG,PPG Industries,24
+0000080424,PG,Procter & Gamble,24
+0000080661,PGR,Progressive Corp.,24
+0000084839,ROL,Rollins Inc.,24
+0000086312,TRV,The Travelers Companies Inc.,24
+0000087347,SLB,Schlumberger Ltd.,24
+0000089800,SHW,Sherwin-Williams,24
+0000091142,AOS,A.O. Smith Corp,24
+0000091419,SJM,JM Smucker,23
+0000091440,SNA,Snap-on,24
+0000091576,KEY,KeyCorp,24
+0000092122,SO,Southern Company,24
+0000092230,TFC,Truist Financial,24
+0000092380,LUV,Southwest Airlines,24
+0000093410,CVX,Chevron Corp.,24
+0000093556,SWK,Stanley Black & Decker,24
+0000093751,STT,State Street Corp.,24
+0000096021,SYY,Sysco Corp.,24
+0000096943,TFX,Teleflex,24
+0000097210,TER,Teradyne,24
+0000097476,TXN,Texas Instruments,24
+0000097745,TMO,Thermo Fisher Scientific,24
+0000098246,TIF,Tiffany & Co.,0
+0000100493,TSN,Tyson Foods,24
+0000100517,UAL,United Airlines Holdings,24
+0000100885,UNP,Union Pacific Corp,24
+0000101778,MRO,Marathon Oil Corp.,16
+0000101829,RTX,Raytheon Technologies,24
+0000103379,VFC,VF Corporation,24
+0000104169,WMT,Walmart,24
+0000105770,WST,West Pharmaceutical Services,24
+0000106040,WDC,Western Digital,24
+0000106535,WY,Weyerhaeuser,24
+0000106640,WHR,Whirlpool Corp.,24
+0000107263,WMB,Williams Companies,24
+0000109198,TJX,TJX Companies Inc.,24
+0000109380,ZION,Zions Bancorp,24
+0000200406,JNJ,Johnson & Johnson,24
+0000202058,LHX,L3Harris Technologies,24
+0000203527,VAR,Varian Medical Systems,1
+0000217346,TXT,Textron Inc.,24
+0000277135,GWW,Grainger (W.W.) Inc.,24
+0000277948,CSX,CSX Corp.,24
+0000310158,MRK,Merck & Co.,24
+0000310764,SYK,Stryker Corp.,24
+0000313616,DHR,Danaher Corp.,24
+0000313927,CHD,Church & Dwight,24
+0000315189,DE,Deere & Co.,23
+0000315213,RHI,Robert Half International,24
+0000315293,AON,Aon plc,24
+0000316709,SCHW,Charles Schwab Corporation,24
+0000318154,AMGN,Amgen Inc.,24
+0000319201,KLAC,KLA Corporation,24
+0000320187,NKE,"Nike, Inc.",23
+0000320193,AAPL,Apple Inc.,24
+0000320335,GL,Globe Life Inc.,24
+0000352541,LNT,Alliant Energy Corp,24
+0000352915,UHS,Universal Health Services,24
+0000354190,AJG,Arthur J. Gallagher & Co.,24
+0000354908,FLIR,FLIR Systems,2
+0000354950,HD,Home Depot,24
+0000701985,LB,L Brands Inc.,24
+0000702165,NSC,Norfolk Southern Corp.,24
+0000707549,LRCX,Lam Research,24
+0000711404,COO,The Cooper Companies,23
+0000712515,EA,Electronic Arts,23
+0000713676,PNC,PNC Financial Services,24
+0000715957,D,Dominion Energy,24
+0000718877,ATVI,Activision Blizzard,11
+0000719739,SIVB,SVB Financial,0
+0000720005,RJF,Raymond James Financial Inc.,24
+0000721371,CAH,Cardinal Health Inc.,24
+0000723125,MU,Micron Technology,24
+0000723254,CTAS,Cintas Corporation,23
+0000723531,PAYX,Paychex Inc.,23
+0000726728,O,Realty Income Corporation,24
+0000728535,JBHT,J. B. Hunt Transport Services,24
+0000731766,UNH,UnitedHealth Group Inc.,24
+0000731802,ATO,Atmos Energy,24
+0000732712,VZ,Verizon Communications,24
+0000732717,T,AT&T Inc.,24
+0000740260,VTR,Ventas Inc,19
+0000743316,MXIM,Maxim Integrated Products Inc,3
+0000743988,XLNX,Xilinx,5
+0000745732,ROST,Ross Stores,24
+0000746515,EXPD,Expeditors,24
+0000749251,IT,Gartner Inc,24
+0000753308,NEE,NextEra Energy,24
+0000759944,CFG,Citizens Financial Group,24
+0000764180,MO,Altria Group Inc,24
+0000764478,BBY,Best Buy Co. Inc.,23
+0000764622,PNW,Pinnacle West Capital,24
+0000765880,PEAK,Healthpeak Properties,22
+0000766421,ALK,Alaska Air Group Inc,24
+0000766704,WELL,Welltower Inc.,22
+0000769397,ADSK,Autodesk Inc.,23
+0000773840,HON,Honeywell Int'l Inc.,24
+0000779152,JKHY,Jack Henry & Associates,24
+0000783280,DRE,Duke Realty Corp,7
+0000783325,WEC,WEC Energy Group,24
+0000788784,PEG,Public Service Enterprise Group (PSEG),24
+0000789019,MSFT,Microsoft Corp.,24
+0000789570,MGM,MGM Resorts International,24
+0000796343,ADBE,Adobe Inc.,23
+0000797468,OXY,Occidental Petroleum,24
+0000798354,FISV,Fiserv Inc,24
+0000804328,QCOM,QUALCOMM Inc.,24
+0000804753,CERN,Cerner,6
+0000811156,CMS,CMS Energy,24
+0000813672,CDNS,Cadence Design Systems,24
+0000813828,VIAC,ViacomCBS,0
+0000814453,NWL,Newell Brands,24
+0000815094,ABMD,ABIOMED Inc,8
+0000815097,CCL,Carnival Corp.,24
+0000815556,FAST,Fastenal Co,24
+0000818479,XRAY,Dentsply Sirona,24
+0000820027,AMP,Ameriprise Financial,24
+0000820313,APH,Amphenol Corp,24
+0000821189,EOG,EOG Resources,24
+0000822416,PHM,PulteGroup,24
+0000823768,WM,Waste Management Inc.,24
+0000827052,EIX,Edison Int'l,24
+0000827054,MCHP,Microchip Technology,24
+0000829224,SBUX,Starbucks Corp.,24
+0000831001,C,Citigroup Inc.,24
+0000831259,FCX,Freeport-McMoRan Inc.,24
+0000832101,IEX,IDEX Corporation,24
+0000833444,JCI,Johnson Controls International,24
+0000849399,NLOK,NortonLifeLock,24
+0000851968,MHK,Mohawk Industries,24
+0000858470,COG,Cabot Oil & Gas,22
+0000858877,CSCO,Cisco Systems,24
+0000859737,HOLX,Hologic,21
+0000860730,HCA,HCA Healthcare,24
+0000860731,TYL,Tyler Technologies,24
+0000865752,MNST,Monster Beverage,24
+0000866787,AZO,AutoZone Inc,23
+0000872589,REGN,Regeneron Pharmaceuticals,24
+0000874716,IDXX,IDEXX Laboratories,24
+0000874761,AES,AES Corp,24
+0000874766,HIG,Hartford Financial Svc.Gp.,24
+0000875045,BIIB,Biogen Inc.,24
+0000875320,VRTX,Vertex Pharmaceuticals Inc,24
+0000877212,ZBRA,Zebra Technologies,24
+0000877890,CTXS,Citrix Systems,7
+0000878927,ODFL,Old Dominion Freight Line,24
+0000879101,KIM,Kimco Realty,24
+0000879169,INCY,Incyte,24
+0000882095,GILD,Gilead Sciences,24
+0000882184,DHI,D. R. Horton,24
+0000882835,ROP,Roper Technologies,24
+0000883241,SNPS,Synopsys Inc.,23
+0000884887,RCL,Royal Caribbean Group,24
+0000885725,BSX,Boston Scientific,24
+0000886982,GS,Goldman Sachs Group,24
+0000895421,MS,Morgan Stanley,24
+0000896159,CB,Chubb Limited,24
+0000896878,INTU,Intuit Inc.,24
+0000898173,ORLY,O'Reilly Automotive,24
+0000899051,ALL,Allstate Corp,24
+0000899689,VNO,Vornado Realty Trust,11
+0000899866,ALXN,Alexion Pharmaceuticals,2
+0000900075,CPRT,Copart Inc,23
+0000906107,EQR,Equity Residential,0
+0000906163,NVR,"NVR, Inc.",24
+0000908255,BWA,BorgWarner,24
+0000909832,COST,Costco Wholesale Corp.,23
+0000910606,REG,Regency Centers Corporation,24
+0000912595,MAA,Mid-America Apartments,20
+0000914208,IVZ,Invesco Ltd.,24
+0000915389,EMN,Eastman Chemical,24
+0000915912,AVB,AvalonBay Communities,23
+0000915913,ALB,Albemarle Corp,24
+0000916076,MLM,Martin Marietta Materials,24
+0000916365,TSCO,Tractor Supply Company,24
+0000920148,LH,Laboratory Corp. of America Holding,24
+0000920522,ESS,"Essex Property Trust, Inc.",23
+0000920760,LEN,Lennar Corp.,23
+0000922224,PPL,PPL Corp.,24
+0000927066,DVA,DaVita Inc.,24
+0000927628,COF,Capital One Financial,24
+0000927653,MCK,McKesson Corp.,24
+0000935703,DLTR,Dollar Tree,23
+0000936340,DTE,DTE Energy Co.,24
+0000936468,LMT,Lockheed Martin Corp.,24
+0000940944,DRI,Darden Restaurants,23
+0000943452,WAB,Westinghouse Air Brake Technologies Corp,24
+0000943819,RMD,ResMed,24
+0000945841,POOL,Pool Corporation,24
+0000946581,TTWO,Take-Two Interactive,24
+0001000228,HSIC,Henry Schein,24
+0001000697,WAT,Waters Corporation,24
+0001001082,DISH,Dish Network,13
+0001001250,EL,Estée Lauder Companies,24
+0001002047,NTAP,NetApp,23
+0001002910,AEE,Ameren Corp,24
+0001012100,SEE,Sealed Air,21
+0001013462,ANSS,ANSYS,18
+0001013871,NRG,NRG Energy,17
+0001014473,VRSN,Verisign Inc.,19
+0001018724,AMZN,Amazon.com Inc.,24
+0001020569,IRM,Iron Mountain Incorporated,24
+0001021860,NOV,National Oilwell Varco Inc.,24
+0001022079,DGX,Quest Diagnostics,24
+0001024478,ROK,Rockwell Automation Inc.,24
+0001031296,FE,FirstEnergy Corp,24
+0001032208,SRE,Sempra Energy,24
+0001034054,SBAC,SBA Communications,24
+0001035002,VLO,Valero Energy,24
+0001035267,ISRG,Intuitive Surgical Inc.,24
+0001035443,ARE,Alexandria Real Estate Equities,20
+0001037038,RL,Ralph Lauren Corporation,24
+0001037540,BXP,Boston Properties,23
+0001037646,MTD,Mettler Toledo,24
+0001037868,AME,AMETEK Inc.,24
+0001038357,PXD,Pioneer Natural Resources,14
+0001039684,OKE,ONEOK,24
+0001040971,SLG,SL Green Realty,20
+0001041061,YUM,Yum! Brands Inc,24
+0001043277,CHRW,C. H. Robinson Worldwide,24
+0001043604,JNPR,Juniper Networks,18
+0001045609,PLD,Prologis,24
+0001045810,NVDA,Nvidia Corporation,24
+0001047862,ED,Consolidated Edison,24
+0001048286,MAR,Marriott Int'l.,24
+0001048695,FFIV,F5 Networks,24
+0001048911,FDX,FedEx Corporation,21
+0001050915,PWR,Quanta Services Inc.,24
+0001051470,CCI,Crown Castle International Corp.,24
+0001053507,AMT,American Tower Corp.,24
+0001058090,CMG,Chipotle Mexican Grill,24
+0001058290,CTSH,Cognizant Technology Solutions,24
+0001059556,MCO,Moody's Corp,24
+0001060391,RSG,Republic Services Inc,24
+0001063761,SPG,Simon Property Group Inc,24
+0001065088,EBAY,eBay Inc.,24
+0001065280,NFLX,Netflix Inc.,24
+0001065696,LKQ,LKQ Corporation,24
+0001067701,URI,"United Rentals, Inc.",24
+0001067983,BRK.B,Berkshire Hathaway,24
+0001070750,HST,Host Hotels & Resorts,24
+0001071739,CNC,Centene Corporation,24
+0001075531,BKNG,Booking Holdings Inc,24
+0001086222,AKAM,Akamai Technologies Inc,24
+0001090012,DVN,Devon Energy,24
+0001090727,UPS,United Parcel Service,24
+0001090872,A,Agilent Technologies Inc,23
+0001091667,CHTR,Charter Communications,24
+0001093557,DXCM,DexCom,24
+0001094285,TDY,Teledyne Technologies,24
+0001095073,RE,Everest Re Group Ltd.,24
+0001097149,ALGN,Align Technology,24
+0001099219,MET,MetLife Inc.,24
+0001099800,EW,Edwards Lifesciences,24
+0001101239,EQIX,Equinix,24
+0001103982,MDLZ,Mondelez International,24
+0001108524,CRM,Salesforce.com,23
+0001109357,EXC,Exelon Corp.,24
+0001110803,ILMN,Illumina Inc,24
+0001111711,NI,NiSource Inc.,24
+0001111928,IPGP,IPG Photonics Corp.,24
+0001113169,TROW,T. Rowe Price Group,24
+0001116132,TPR,"Tapestry, Inc.",23
+0001120193,NDAQ,"Nasdaq, Inc.",24
+0001121788,GRMN,Garmin Ltd.,24
+0001123360,GPN,Global Payments Inc.,24
+0001126328,PFG,Principal Financial Group,24
+0001130310,CNP,CenterPoint Energy,24
+0001132979,FRC,First Republic Bank,10
+0001133421,NOC,Northrop Grumman,24
+0001136869,ZBH,Zimmer Biomet,24
+0001136893,FIS,Fidelity National Information Services,24
+0001137774,PRU,Prudential Financial,24
+0001137789,STX,Seagate Technology,24
+0001138118,CBRE,CBRE Group,24
+0001140536,WLTW,Willis Towers Watson,24
+0001140859,ABC,AmerisourceBergen Corp,24
+0001141391,MA,Mastercard Inc.,24
+0001156039,ANTM,Anthem,24
+0001156375,CME,CME Group Inc.,24
+0001158449,AAP,Advance Auto Parts,24
+0001163165,COP,ConocoPhillips,24
+0001164727,NEM,Newmont Corporation,24
+0001166691,CMCSA,Comcast Corp.,24
+0001170010,KMX,Carmax Inc,23
+0001174922,WYNN,Wynn Resorts Ltd,24
+0001175454,FLT,FleetCor Technologies Inc,24
+0001260221,TDG,TransDigm Group,24
+0001262039,FTNT,Fortinet,24
+0001267238,AIZ,Assurant,24
+0001278021,MKTX,MarketAxess,24
+0001281761,RF,Regions Financial Corp.,24
+0001283699,TMUS,T-Mobile US,24
+0001285785,MOS,The Mosaic Company,24
+0001286681,DPZ,Domino's Pizza,24
+0001289490,EXR,Extra Space Storage,24
+0001297996,DLR,Digital Realty Trust Inc,22
+0001300514,LVS,Las Vegas Sands,24
+0001306830,CE,Celanese,24
+0001318605,TSLA,"Tesla, Inc.",24
+0001324404,CF,CF Industries Holdings Inc,24
+0001324424,EXPE,Expedia Group,24
+0001326160,DUK,Duke Energy,24
+0001326801,FB,"Facebook, Inc.",24
+0001335258,LYV,Live Nation Entertainment,24
+0001336917,"UAA, UA",Under Armour (Class A),23
+0001336920,LDOS,Leidos Holdings,24
+0001341439,ORCL,Oracle Corp.,23
+0001358071,CXO,Concho Resources,0
+0001359841,HBI,Hanesbrands Inc,20
+0001364742,BLK,BlackRock,0
+0001365135,WU,Western Union Co,24
+0001370637,ETSY,Etsy,24
+0001373715,NOW,ServiceNow,24
+0001374310,CBOE,Cboe Global Markets,24
+0001378946,PBCT,People's United Financial,5
+0001383312,BR,Broadridge Financial Solutions,24
+0001385157,TEL,TE Connectivity Ltd.,24
+0001390777,BK,The Bank of New York Mellon,24
+0001393311,PSA,Public Storage,24
+0001393612,DFS,Discover Financial Services,18
+0001396009,VMC,Vulcan Materials,24
+0001402057,CDW,CDW,24
+0001403161,V,Visa Inc.,24
+0001403568,ULTA,Ulta Beauty,23
+0001408198,MSCI,MSCI Inc,24
+0001410636,AWK,American Water Works Company Inc,24
+0001413329,PM,Philip Morris International,24
+0001418091,TWTR,"Twitter, Inc.",7
+0001437107,"DISCA, DISCK","Discovery, Inc. (Class A)",23
+0001442145,VRSK,Verisk Analytics,24
+0001466258,TT,Trane Technologies plc,24
+0001467373,ACN,Accenture plc,23
+0001467858,GM,General Motors,24
+0001478242,IQV,IQVIA Holdings Inc.,24
+0001489393,LYB,LyondellBasell,24
+0001492633,NLSN,Nielsen Holdings,7
+0001501585,HII,Huntington Ingalls Industries,24
+0001506307,KMI,Kinder Morgan,24
+0001510295,MPC,Marathon Petroleum,24
+0001513761,NCLH,Norwegian Cruise Line Holdings,24
+0001519751,FBHS,Fortune Brands Home & Security,24
+0001521332,APTV,Aptiv PLC,24
+0001524472,XYL,Xylem Inc.,24
+0001534701,PSX,Phillips 66,24
+0001539838,FANG,Diamondback Energy,24
+0001551152,ABBV,AbbVie Inc.,24
+0001551182,ETN,Eaton Corporation,24
+0001555280,ZTS,Zoetis,24
+0001564708,"NWSA, NWS",News Corp. Class A,24
+0001571949,ICE,Intercontinental Exchange,24
+0001579241,ALLE,Allegion,24
+0001585364,PRGO,Perrigo,24
+0001585689,HLT,Hilton Worldwide Holdings Inc,24
+0001590955,PAYC,Paycom,24
+0001596532,ANET,Arista Networks,24
+0001596783,CTLT,Catalent,16
+0001598014,INFO,IHS Markit Ltd.,5
+0001601046,KEYS,Keysight Technologies,24
+0001601712,SYF,Synchrony Financial,24
+0001604778,QRVO,Qorvo,23
+0001613103,MDT,Medtronic plc,23
+0001618921,WBA,Walgreens Boots Alliance,19
+0001633917,PYPL,PayPal,24
+0001637459,KHC,Kraft Heinz Co,24
+0001645590,HPE,Hewlett Packard Enterprise,23
+0001652044,"GOOGL, GOOG",Alphabet Inc. (Class A),24
+0001659166,FTV,Fortive Corp,24
+0001666700,DD,DuPont de Nemours Inc,24
+0001679273,LW,Lamb Weston Holdings Inc,24
+0001681459,FTI,TechnipFMC,24
+0001688568,DXC,DXC Technology,24
+0001699150,IR,Ingersoll Rand,24
+0001701605,BKR,Baker Hughes Co,24
+0001707925,LIN,Linde plc,24
+0001711269,EVRG,Evergy,24
+0001730168,AVGO,Broadcom Inc.,23
+0001732845,WRK,WestRock,14
+0001739940,CI,CIGNA Corp.,24
+0001744489,DIS,The Walt Disney Company,24
+0001748790,AMCR,Amcor plc,22
+0001751788,DOW,Dow Inc.,24
+0001754301,"FOXA, FOX",Fox Corporation (Class A),24
+0001755672,CTVA,Corteva,0
+0001757898,STE,STERIS plc,24
+0001770450,XRX,Xerox,24
+0001781335,OTIS,Otis Worldwide,23
+0001783180,CARR,Carrier Global,23
+0001786842,VNT,Vontier,21
+0001792044,VTRS,Viatris,24

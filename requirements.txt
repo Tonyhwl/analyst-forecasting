@@ -1,0 +1,13 @@
+# Versions that produced the saved outputs (Python 3.12.10).
+# requirements-lock.txt lists every installed package.
+matplotlib==3.11.2
+numpy==2.5.5
+pandas==3.1.1
+scikit-learn==1.9.1
+scipy==1.18.1
+shap==0.54.1
+threadpoolctl==3.8.0
+xlrd==2.0.2
+# Only needed to re-export data/sp500_january_cohort_revenue_ebit_2026-11-22.csv
+# from the Capital IQ pilot workbook (code/data_export/). Not installed in .venv.
+# openpyxl

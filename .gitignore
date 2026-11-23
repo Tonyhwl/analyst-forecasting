@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.pyc
+~$*
+data/*
+!data/sp500_january_2017_2021_members.csv
+reproduced/
