@@ -29,6 +29,7 @@ EPS error was lowest in every test year. Predicted beat rates were within one pe
 | Revenue and margin miss risk | Logistic regression | Company miss history plus the forecast gap |
 
 - Data: S&P Capital IQ consensus (mean, one day before release) and reported normalized EPS, revenue and EBIT.
+- Historical actuals come from a 2026 export and may include later restatements.
 - Models refit every January on results announced before January 1. Every input uses only results released before the forecast date.
 - Errors are compared on identical releases, with intervals clustered by announcement quarter.
 
@@ -58,7 +59,7 @@ cd code
 ..\.venv\Scripts\python.exe -m earnings_forecast reproduce --output-dir ..\reproduced
 ```
 
-The unit tests run without the licensed data. `reproduce` rebuilds all 31 outputs and compares them with `outputs/`, which holds only the aggregated tables and figures; release-level files are not published because they contain licensed values.
+The unit tests run without the licensed data. `reproduce` rebuilds all 31 outputs and compares their values with `outputs/`. Release-level files are not published because they contain licensed values, so those are listed as having no reference file.
 
 ## Repository layout
 

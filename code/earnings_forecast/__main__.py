@@ -22,15 +22,16 @@ def main():
     args = parser.parse_args()
     if args.command == 'reproduce':
         Reproduction(args.output_dir).run()
-    identical, different, missing = compare_outputs(args.output_dir,
-                                                    args.reference_dir)
-    print(f'{len(identical)} identical, {len(different)} different, '
-          f'{len(missing)} without a reference file')
-    for name in different:
-        print(f'  different: {name}')
-    for name in missing:
-        print(f'  no reference: {name}')
-    raise SystemExit(1 if different or missing else 0)
+    result = compare_outputs(args.output_dir, args.reference_dir)
+    print(f"{len(result['identical'])} byte-identical, "
+          f"{len(result['equal'])} equal in value, "
+          f"{len(result['different'])} different, "
+          f"{len(result['unavailable'])} with no reference file")
+    for status in ('equal', 'different', 'unavailable'):
+        for name in result[status]:
+            print(f'  {status}: {name}')
+    compared = len(result['identical']) + len(result['equal'])
+    raise SystemExit(1 if result['different'] or not compared else 0)
 
 
 if __name__ == '__main__':

@@ -58,15 +58,43 @@ class Reproduction:
         return sorted(p.name for p in self.output_dir.iterdir())
 
 
+def same_values(left, right, tolerance=1e-9):
+    """Compare two CSV tables, allowing rounding and a different row order."""
+    a, b = pd.read_csv(left), pd.read_csv(right)
+    if list(a.columns) != list(b.columns) or len(a) != len(b):
+        return False
+
+    def equal(x, y):
+        try:
+            pd.testing.assert_frame_equal(x, y, check_exact=False,
+                                          rtol=tolerance, atol=tolerance)
+        except AssertionError:
+            return False
+        return True
+
+    if equal(a, b):
+        return True
+    # Sort on labels and counts only: rounding could reorder float columns.
+    keys = [col for col in a if not pd.api.types.is_float_dtype(a[col])]
+    if not keys or a.duplicated(keys).any() or b.duplicated(keys).any():
+        return False
+    return equal(a.sort_values(keys, ignore_index=True),
+                 b.sort_values(keys, ignore_index=True))
+
+
 def compare_outputs(new_dir, reference_dir=OUTPUT_DIR):
-    """Return (identical, different, missing) file names."""
-    identical, different, missing = [], [], []
+    """Group reproduced files by how they compare with the reference."""
+    result = {'identical': [], 'equal': [], 'different': [],
+              'unavailable': []}
     for path in sorted(new_dir.iterdir()):
         reference = reference_dir / path.name
         if not reference.exists():
-            missing.append(path.name)
+            status = 'unavailable'
         elif filecmp.cmp(path, reference, shallow=False):
-            identical.append(path.name)
+            status = 'identical'
+        elif path.suffix == '.csv' and same_values(path, reference):
+            status = 'equal'
         else:
-            different.append(path.name)
-    return identical, different, missing
+            status = 'different'
+        result[status].append(path.name)
+    return result

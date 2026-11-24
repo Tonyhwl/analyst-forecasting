@@ -1,7 +1,9 @@
 """Unit tests: no future information enters any input, and the statistics
 behave as documented."""
 
+import tempfile
 import unittest
+from pathlib import Path
 from unittest.mock import patch
 
 import numpy as np
@@ -146,6 +148,26 @@ class CategoryTests(unittest.TestCase):
             'Very confident beat', 'Confident beat', 'Leaning beat',
             'Coin flip', 'Leaning non-beat', 'Confident non-beat',
             'Very confident non-beat'])
+
+
+class CompareOutputTests(unittest.TestCase):
+    def compare(self, new, reference):
+        # Imported here because the pipeline also loads SHAP and matplotlib.
+        from earnings_forecast.pipeline import same_values
+        with tempfile.TemporaryDirectory() as folder:
+            paths = [Path(folder) / name for name in ('new.csv', 'ref.csv')]
+            for path, table in zip(paths, (new, reference)):
+                table.to_csv(path, index=False)
+            return same_values(*paths)
+
+    def test_rounding_and_row_order_are_accepted(self):
+        table = pd.DataFrame({'band': [0, 10], 'rate': [0.1, 0.2]})
+        moved = table.iloc[::-1].assign(rate=lambda x: x.rate + 1e-13)
+        self.assertTrue(self.compare(moved, table))
+
+    def test_changed_value_is_rejected(self):
+        table = pd.DataFrame({'band': [0, 10], 'rate': [0.1, 0.2]})
+        self.assertFalse(self.compare(table.assign(rate=[0.1, 0.2001]), table))
 
 
 if __name__ == '__main__':
