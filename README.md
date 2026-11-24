@@ -2,7 +2,7 @@
 
 Analysts' consensus estimates are biased in a systematic way: S&P 500 companies beat EPS consensus about 80% of the time. This project learns that bias. It forecasts quarterly **EPS, revenue and operating margin** by correcting consensus, and estimates the probability that a company **beats or misses**.
 
-All results below are out of sample: models developed on 2017–2020 and tested once on releases from 2021 to 19 November 2026, using the S&P 500 roster fixed in January 2021 (including companies that later left the index).
+All results below are out of sample. Features and settings were selected using pre-2021 data only. Forecasts for 2021 to 19 November 2026 are walk-forward, and the miss-risk test was frozen and scored once. They use the S&P 500 roster fixed in January 2021 (including companies that later left the index).
 
 ## Results
 
